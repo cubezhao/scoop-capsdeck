@@ -1,0 +1,31 @@
+{
+    "version": "0.1.0",
+    "description": "Remap CapsLock into a powerful modifier layer",
+    "homepage": "https://github.com/cubezhao/scoop-capsdeck",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cubezhao/scoop-capsdeck/releases/download/v0.1.0/CapsDeck_0.1.0_x64-portable.zip",
+            "hash": "TODO_REPLACE_WITH_SHA256_AFTER_RELEASE"
+        }
+    },
+    "shortcuts": [
+        [
+            "CapsDeck.exe",
+            "CapsDeck"
+        ]
+    ],
+    "notes": "Requires Microsoft Edge WebView2 Runtime. Exit CapsDeck from the system tray before running scoop update capsdeck.",
+    "checkver": {
+        "github": "https://github.com/cubezhao/scoop-capsdeck"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cubezhao/scoop-capsdeck/releases/download/v$version/CapsDeck_$version_x64-portable.zip"
+            }
+        }
+    },
+    "bin": "CapsDeck.exe",
+    "post_install": "New-Item -ItemType File -Path (Join-Path $dir 'scoop-managed') -Force | Out-Null"
+}
