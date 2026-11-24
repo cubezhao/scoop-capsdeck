@@ -1,12 +1,12 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Remap CapsLock into a powerful modifier layer",
     "homepage": "https://github.com/cubezhao/scoop-capsdeck",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cubezhao/scoop-capsdeck/releases/download/v0.1.0/CapsDeck_0.1.0_x64-portable.zip",
-            "hash": "TODO_REPLACE_WITH_SHA256_AFTER_RELEASE"
+            "url": "https://github.com/cubezhao/scoop-capsdeck/releases/download/v0.1.1/CapsDeck_0.1.1_x64-portable.zip",
+            "hash": "8b6737ab2e45ff33e464068c54ba9c9f0f8e4339b7f52cb19e73437a27ed4b83"
         }
     },
     "shortcuts": [
